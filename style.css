@@ -747,6 +747,7 @@ img{
     margin-top: 11px;
     font-size: 15px;
     font-weight: 800;
+	line-height:25px;
 }
     .btn{
         background-color: var(--main-color);
