@@ -322,8 +322,9 @@ img{
         display: none;
     }
     .logo{
-        margin-left: 12px;
-        font-size: 12px;
+        /*margin-left: 12px;
+        font-size: 12px;*/
+	    display:none;
     }
     .main-title{
         display: flex;
