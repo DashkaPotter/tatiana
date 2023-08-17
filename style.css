@@ -741,6 +741,13 @@ img{
     .list{
         padding: 20px;
     }
+	}
+.list ul li{
+    color: white;
+    margin-top: 11px;
+    font-size: 15px;
+    font-weight: 800;
+}
     .btn{
         background-color: var(--main-color);
         border-radius: var(--radius);
