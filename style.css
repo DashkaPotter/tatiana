@@ -868,7 +868,7 @@ img{
         flex-direction: column;
         text-align: left;      
         z-index: 3;
-        margin-left: 0px;
+        margin-left: -13px;
         margin-top: 170px;
     }
     #hero .hero {
