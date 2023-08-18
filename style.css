@@ -708,7 +708,7 @@ img{
         flex-direction: column;
         text-align: left;      
         z-index: 3;
-        margin-left: -16px;
+        margin-left: -18px;
         margin-top: 170px;
     }
     .hero-info h1{
@@ -719,7 +719,7 @@ img{
     }
     .hero-info p{
         letter-spacing: 1px;
-        width: 330px;
+        width: 340px;
         font-size: 18px;
         margin-right: 0px;
         line-height: 30px;
@@ -732,7 +732,7 @@ img{
         line-height: 30px;
         margin-left: 0px;
         margin-bottom: 14px;
-        padding-right: 7px;
+        padding-right: 5px;
     }
 
     .brand-title {
