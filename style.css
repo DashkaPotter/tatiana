@@ -841,6 +841,9 @@ img{
     body{
     background: var(--sections-bg);
 }
+	.logo{
+		font-size:8px;
+	}
     .hero-info{
         display: flex;
         flex-direction: column;
@@ -862,7 +865,7 @@ img{
     }
     .hero-info p{
         letter-spacing: 1px;
-        width: 290px;
+        width: 280px;
         font-size: 17px;
         margin-right: 0px;
         line-height: 30px;
