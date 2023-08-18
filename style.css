@@ -773,6 +773,7 @@ img{
     .logo{
         margin-left: 11px;
         font-size: 11px;
+	display:flex;
     }
     #hero {
         background-image: url(hero.jpg);
