@@ -838,7 +838,9 @@ img{
 }
 
 @media all and (max-width:380px){
-    
+    body{
+    background: var(--sections-bg);
+}
     .hero-info{
         display: flex;
         flex-direction: column;
