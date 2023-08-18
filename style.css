@@ -769,10 +769,11 @@ img{
     }
     .navbar a{
         display: none;
+	    width:80%;
     }
     .logo{
         margin-left: 11px;
-        font-size: 12px;
+        font-size: 11px;
     }
     #hero {
         background-image: url(hero.jpg);
