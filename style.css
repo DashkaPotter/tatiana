@@ -765,14 +765,14 @@ img{
     }
     .navbar{
     padding: 14px;
-    width: 100%;
+/*     width: 100%; */
     }
     .navbar a{
         display: none;
     }
     .logo{
         margin-left: 11px;
-        font-size: 10px;
+        font-size: 12px;
     }
     #hero {
         background-image: url(hero.jpg);
@@ -884,7 +884,7 @@ img{
         align-items: center;
         flex-direction: column;
     }
-    .me-title, .title-why{
+    .me-title h2, .title-why h2{
         font-size: 1.1rem;
         text-shadow: 1px 1px 2px var(--main-color);
     }
