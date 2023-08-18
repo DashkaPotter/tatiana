@@ -118,7 +118,7 @@ img{
 
 .navigation.active{
     /* right: 0; */
-    top: 50px;
+    top: 55px;
 	background-color: var(--main-color);
 }
 
@@ -686,7 +686,7 @@ img{
         background: 0 0;
     }
     .navbar{
-    padding: 15px;
+    padding: 14px;
     width: 100%;
     }
     .navbar a{
@@ -694,7 +694,7 @@ img{
     }
     .logo{
         margin-left: 12px;
-        font-size: 11px;
+        font-size: 10px;
     }
     #hero {
         background-image: url(hero.jpg);
