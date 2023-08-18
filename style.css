@@ -772,8 +772,7 @@ img{
     }
     .logo{
         margin-left: 11px;
-        font-size: 11px;
-	display:flex;
+        font-size: 10px;
     }
     #hero {
         background-image: url(hero.jpg);
@@ -891,7 +890,11 @@ img{
     }
     .list{
         padding: 20px;
+	    max-width:320px;
     }
+	.list ul li {
+		font-size:16px;
+	}
     .btn{
         background-color: var(--main-color);
         border-radius: var(--radius);
