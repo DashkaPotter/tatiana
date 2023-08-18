@@ -223,7 +223,7 @@ img{
 #hero .hero {
 	/* max-width: 1200px; */
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 10px;
 	justify-content: flex-start;
 }
 
