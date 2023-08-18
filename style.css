@@ -566,7 +566,7 @@ img{
     }
     .hamburger{
         display: block;
-        top: 4.8%;
+        top: 4.9%;
         left: 89%;
         width: 30px;
         height: 47px;
@@ -582,8 +582,8 @@ img{
         display: none;
     }
     .logo{
-        margin-left: 20px;
-        font-size: 13px;
+        margin-left: 10px;
+        font-size: 12px;
     }.hero-info{
         display: flex;
         flex-direction: column;
@@ -694,7 +694,7 @@ img{
     }
     .logo{
         margin-left: 12px;
-        font-size: 12px;
+        font-size: 11px;
     }
     #hero {
         background-image: url(hero.jpg);
