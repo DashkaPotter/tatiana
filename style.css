@@ -840,7 +840,26 @@ img{
 @media all and (max-width:380px){
     body{
     background: var(--sections-bg);
-}
+}.navigation{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        top: 5.2%;
+        left: 83%;
+        width: 30px;
+        height: 43px;
+        transform: translateY(-50%);
+        border: 0;
+        background: 0 0;
+    }
+    .navbar{
+    padding: 15px;
+    width: 80%;
+    }
+    .navbar a{
+        display: none;
+    }
 	 .logo{
         font-size: 8px;
     }
