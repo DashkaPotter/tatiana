@@ -841,9 +841,9 @@ img{
     body{
     background: var(--sections-bg);
 }
-	.logo{
-		font-size:8px;
-	}
+	 .logo{
+        font-size: 8px;
+    }
     .hero-info{
         display: flex;
         flex-direction: column;
@@ -859,14 +859,14 @@ img{
     }
     .hero-info h1{
         color: white;
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding: 20px 0px;
         margin-bottom: 90px;
     }
     .hero-info p{
         letter-spacing: 1px;
-        width: 280px;
-        font-size: 17px;
+        width: 300px;
+        font-size: 16px;
         margin-right: 0px;
         line-height: 30px;
         padding-right: 3px;
