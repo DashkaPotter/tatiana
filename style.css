@@ -868,8 +868,9 @@ img{
         flex-direction: column;
         text-align: left;      
         z-index: 3;
-        margin-left: -13px;
+        margin-left: -18px;
         margin-top: 170px;
+	    padding-left:5px;
     }
     #hero .hero {
         margin: 0 auto;
