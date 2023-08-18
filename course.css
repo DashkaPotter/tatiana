@@ -300,6 +300,64 @@ img{
     color: var(--main-color);
 }
 
+
+
+@media all and (max-width:1024px){
+    .navigation{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        top: 4%;
+        left: 89%;
+        width: 30px;
+        height: 47px;
+        transform: translateY(-70%);
+        border: 0;
+        background: 0 0;
+    }
+    .navbar{
+    padding: 19px;
+    width: 100%;
+    }
+    .navbar a{
+        display: none;
+    }
+    .logo{
+        margin-left: 20px;
+        font-size: 13px;
+    }
+
+}
+
+@media all and (max-width:830px){
+    
+    .navigation{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        top: 4.8%;
+        left: 89%;
+        width: 30px;
+        height: 47px;
+        transform: translateY(-70%);
+        border: 0;
+        background: 0 0;
+    }
+    .navbar{
+    padding: 19px;
+    width: 100%;
+    }
+    .navbar a{
+        display: none;
+    }
+    .logo{
+        margin-left: 20px;
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width:500px){
     .navigation{
         display: block;
@@ -322,9 +380,8 @@ img{
         display: none;
     }
     .logo{
-        /*margin-left: 12px;
-        font-size: 12px;*/
-	    display:none;
+        margin-left: 12px;
+        font-size: 12px;
     }
     .main-title{
         display: flex;
@@ -382,6 +439,7 @@ img{
     .card-cont{
         margin-top: 40px;
     }
+    
 }
 @media all and (max-width:380px){
     .navigation{
@@ -408,8 +466,4 @@ img{
         margin-left: 12px;
         font-size: 11px;
     }
-}
-.navigation.active{
-    top: 55px;
-	background-color: var(--main-color);
 }
