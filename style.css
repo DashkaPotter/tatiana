@@ -118,7 +118,7 @@ img{
 
 .navigation.active{
     /* right: 0; */
-    top: 50px;
+    top: 55px;
 	background-color: var(--main-color);
 }
 
@@ -764,15 +764,15 @@ img{
         background: 0 0;
     }
     .navbar{
-    padding: 15px;
+    padding: 14px;
     width: 100%;
     }
     .navbar a{
         display: none;
     }
     .logo{
-        margin-left: 12px;
-        font-size: 12px;
+        margin-left: 11px;
+        font-size: 11px;
     }
     #hero {
         background-image: url(hero.jpg);
@@ -867,7 +867,7 @@ img{
         line-height: 40px;
         height: 40px;
         text-align: center;
-        width: 270px;
+        width: 286px;
         padding: 0;
         margin-bottom: 30px;
         margin-right: 50px;
