@@ -762,17 +762,5 @@ img{
         flex-direction: column;
         align-items: center;
     }
-    .hamburger{
-        display: block;
-    }
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 50px;
-        flex-direction: column;
-        text-align: center;
-    }
-    .nav-menu.active{
-        left: 0;
-    }
+   
 }
