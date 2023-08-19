@@ -678,7 +678,7 @@ img{
     }
     .hamburger{
         display: block;
-        top: 5%;
+        top: 5.2%;
         left: 85%;
         width: 30px;
         height: 43px;
@@ -687,7 +687,7 @@ img{
         background: 0 0;
     }
     .navbar{
-    padding: 14px;
+    padding: 15px;
     width: 100%;
     }
     .navbar a{
@@ -695,7 +695,7 @@ img{
     }
     .logo{
         margin-left: 12px;
-        font-size: 10px;
+        font-size: 12px;
     }
     #hero {
         background-image: url(hero.jpg);
@@ -728,7 +728,7 @@ img{
         margin-left: 0px;
     }
     .hero-info h2{
-        font-size: 17px;
+        font-size: 18px;
         color: #f2f0f0f3;
         line-height: 30px;
         margin-left: 0px;
@@ -768,6 +768,7 @@ img{
     .about-par h2{
         font-size: 1.6rem;
         margin-bottom: 10px;
+        text-shadow: 1px 1px 2px var(--main-color);
     }
     .about-par p{
         padding: 10px 10px;
@@ -806,21 +807,19 @@ img{
         align-items: center;
         flex-direction: column;
     }
-    .me-title h2, .title-why h2{
+    .me-title, .title-why{
         font-size: 1.1rem;
-	    text-shadow: 1px 1px 2px var(--main-color);
+        text-shadow: 1px 1px 2px var(--main-color);
     }
     .list{
         padding: 20px;
-	    max-width:360px;
     }
-	}
-.list ul li{
-    color: white;
-    margin-top: 11px;
-    font-size: 16px;
-    font-weight: 800;
-}
+    .list ul li{
+        color: white;
+        margin-top: 11px;
+        font-size: 16px;
+        font-weight: 800;
+    }
     .btn{
         background-color: var(--main-color);
         border-radius: var(--radius);
@@ -831,11 +830,14 @@ img{
     }
 
     .courses-container{
-        display: grid;
-	grid-template-columns: repeat(1, 320px);
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-   
+    .hamburger{
+        display: block;
+    }
+
 }
 
 @media all and (max-width:380px){
