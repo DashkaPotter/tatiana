@@ -473,7 +473,6 @@ img{
 .course-wrap{
     position: relative;
     text-align: center;
-    
 }
 .courses-container img{
     border-radius: var(--radius);
@@ -510,6 +509,8 @@ img{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
