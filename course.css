@@ -243,11 +243,15 @@ img{
     font-weight: 400;
     letter-spacing: 0.14em;
     text-shadow: 1px 1px 2px #6e6e6e;
+	margin-botton:20px;
 }
 .card h1{
     font-size: 1.8rem;
     margin: 0.8em 0;
     color: #343341;
+}
+.card ul {
+	margin-top:30px;
 }
 .card ul li {
     position: relative;
