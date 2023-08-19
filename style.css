@@ -832,7 +832,7 @@ img{
 
     .courses-container{
         display: grid;
-	grid-template-columns: 1;
+	grid-template-columns: 1, 1fr;
         align-items: center;
     }
    
