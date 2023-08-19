@@ -831,8 +831,8 @@ img{
     }
 
     .courses-container{
-        display: grid;
-	grid-template-columns: 320px 1fr;
+        display: flex;
+	flex-direction:column;
         align-items: center;
     }
    
